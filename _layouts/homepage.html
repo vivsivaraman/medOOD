@@ -88,7 +88,7 @@
     <br />
 
     {% if site.affiliations %}
-    <div style="display: flex; justify-content: center; grid-gap: 10px;">
+    <div style="display: flex; justify-content: center; grid-gap: 25px; font-size: large">
         {% for affiliation in site.affiliations %}
         <h4><a href="{{ affiliation.link }}" target="_blank" rel="noopener noreferrer"><sup>{{ affiliation.symbol }}</sup>{{ affiliation.name }}</a></h4>
         {% endfor %}

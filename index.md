@@ -4,7 +4,7 @@ layout: homepage
 
 # Summary
 <p align="justify">
-We focus on producing well-calibrated out-of-distribution (OOD) detectors for safe deployment of medical image classifiers. Synthetic augmentations have become prevalent for inlier/outlier specification, but our research reveals that the synthesis space and augmentation type significantly impact OOD detector calibration. Through empirical studies on medical imaging benchmarks, we demonstrate that our approach of synthesizing latent-space inliers and diverse pixel-space outliers consistently outperforms state-of-the-art methods, improving OOD detection across various open-set recognition settings.
+Our primary focus is on developing well-calibrated out-of-distribution (OOD) detectors to ensure the safe deployment of medical image classifiers. The use of synthetic augmentations has become common for specifying regimes of data inliers and outliers. However, our research findings highlight the substantial influence of both the synthesis space and the type of augmentation on the performance of OOD detectors. After conducting an extensive study using medical imaging benchmarks and open-set recognition settings, we recommend employing a combination of virtual inliers in the classifier's latent space and diverse synthetic outliers in the pixel space. This approach proves highly effective in producing OOD detectors with superior performance.
 </p>
 
 # Video

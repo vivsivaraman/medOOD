@@ -46,9 +46,9 @@ canonical: https://vivsivaraman.github.io/
 description: This paper identifies that the space in which the inliers and outliers are synthesized, in addition to the type of augmentation, plays a critical role in calibrating OOD detectors.
 
 # Links
-paper_link: https://openreview.net/pdf?id=RU7fr0-M8N
-slides_link: https://openreview.net/pdf?id=RU7fr0-M8N
-poster_link: https://openreview.net/pdf?id=RU7fr0-M8N
+paper_link: https://arxiv.org/pdf/2207.05286.pdf
+slides_link: https://arxiv.org/pdf/2207.05286.pdf
+poster_link: https://arxiv.org/pdf/2207.05286.pdf
 video_link: 
 github_link: https://github.com/LLNL/OODmedic
 
