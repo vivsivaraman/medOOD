@@ -279,14 +279,14 @@ To be posted
 }
 </style>
 
-<div style="font-size:18px">
+<!-- <div style="font-size:18px">
   <ol type="a">
   <p align="justify">
-  <li><strong>Training:</strong> Train the medical image classifier along with the appropriate calibration protocol i.e latent-space inliers &amp; pixel-space outliers.</li>
+  <li><strong>Training:</strong> Train the medical image classifier along with the appropriate calibration protocol i.e latent-space inliers & pixel-space outliers.</li>
   <li><strong>OOD Detection:</strong> Use an energy based OOD detector to distinguish between ID and OOD (Modality Shifts / Novel Classes) and compute the performance metrics for e.g., AUROC</li>
   </p>
 </ol>
-</div>
+</div> -->
 
 <!-- 
 
@@ -337,19 +337,19 @@ To be posted
         <img src="assets/img/results_new_2.png" alt="" class="gallery-thumbnail" />
       </div>
     
-      <div class="thumbnail" onclick="changeImage(this, 'assets/img/results_2.png', 'Our approach better demarcates between ID and OOD distributions as seen in the histogram plots of the energy scores in comparison to the baselines.', 2)">
-        <img src="assets/img/results_2.png" alt="" class="gallery-thumbnail" />
+      <div class="thumbnail" onclick="changeImage(this, 'assets/img/results_2_1.png', 'Our approach better demarcates between ID and OOD distributions as seen in the histogram plots of the energy scores in comparison to the baselines.', 2)">
+        <img src="assets/img/results_2_1.png" alt="" class="gallery-thumbnail" />
       </div>
     
-      <div class="thumbnail" onclick="changeImage(this, 'assets/img/results_3.png', 'In fact, our approach can effectively detect even covariate shifts and demonstrates a substantial improvement of approximately 7% to 35% in AUROC compared to the baselines.', 3)">
-        <img src="assets/img/results_3.png" alt="" class="gallery-thumbnail" />
+      <div class="thumbnail" onclick="changeImage(this, 'assets/img/results_3_1.png', 'In fact, our approach can effectively detect even covariate shifts and demonstrates a substantial improvement of approximately 7% to 35% in AUROC compared to the baselines.', 3)">
+        <img src="assets/img/results_3_1.png" alt="" class="gallery-thumbnail" />
       </div>
     
   </div>
 </div>
 
 <script>
-var gallery_data = [{"src":"assets/img/results_new_1.png","alt":null,"caption":"We demonstrate the efficacy of our proposed calibration protocol on a variety of open-set recongnition settings namely modality shifts that contain semantically disparate concepts, and novel classes that ontain images unssen during training"},{"src":"assets/img/results_new_2.png","alt":null,"caption":"Our calibration protocol consistently outperforms all baselines (VOS, VOS++, NDA, NDA++) by significant margins (10% to 30% on average for Modality Shift Detection and 15% to 28% for Novel Class Detection ) in terms of AUROC scores without compromising on the ID accuracy."},{"src":"assets/img/results_2.png","alt":null,"caption":"Our approach better demarcates between ID and OOD distributions as seen in the histogram plots of the energy scores in comparison to the baselines."},{"src":"assets/img/results_3.png","alt":null,"caption":"In fact, our approach can effectively detect even covariate shifts and demonstrates a substantial improvement of approximately 7% to 35% in AUROC compared to the baselines."}];
+var gallery_data = [{"src":"assets/img/results_new_1.png","alt":null,"caption":"We demonstrate the efficacy of our proposed calibration protocol on a variety of open-set recongnition settings namely modality shifts that contain semantically disparate concepts, and novel classes that ontain images unssen during training"},{"src":"assets/img/results_new_2.png","alt":null,"caption":"Our calibration protocol consistently outperforms all baselines (VOS, VOS++, NDA, NDA++) by significant margins (10% to 30% on average for Modality Shift Detection and 15% to 28% for Novel Class Detection ) in terms of AUROC scores without compromising on the ID accuracy."},{"src":"assets/img/results_2_1.png","alt":null,"caption":"Our approach better demarcates between ID and OOD distributions as seen in the histogram plots of the energy scores in comparison to the baselines."},{"src":"assets/img/results_3_1.png","alt":null,"caption":"In fact, our approach can effectively detect even covariate shifts and demonstrates a substantial improvement of approximately 7% to 35% in AUROC compared to the baselines."}];
 var currentThumbnail = document.querySelector('.thumbnail');
 var currentIndex = 0;
 currentThumbnail.style.boxShadow = '0px 0px 10px 3px rgba(0,0,0,0.75)';
@@ -409,10 +409,12 @@ document.getElementById('mainImage').addEventListener('touchend', function(e) {
 }
 .main-image {
   width: 70%;
+  height: auto;
   margin-bottom: 20px;
 }
 .gallery-image {
   width: 100%;
+  height: auto;
 }
 .thumbnails {
   display: flex;
@@ -436,6 +438,7 @@ document.getElementById('mainImage').addEventListener('touchend', function(e) {
 
 .gallery .main-image {
   width: 100%;
+  height: auto;
   margin: auto;
 }
 

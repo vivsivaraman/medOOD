@@ -6,11 +6,11 @@
   alt: 
   caption: "Our calibration protocol consistently outperforms all baselines (VOS, VOS++, NDA, NDA++) by significant margins (10% to 30% on average for Modality Shift Detection and 15% to 28% for Novel Class Detection ) in terms of AUROC scores without compromising on the ID accuracy."
 
-- src: "assets/img/results_2.png"
+- src: "assets/img/results_2_1.png"
   alt: 
   caption: "Our approach better demarcates between ID and OOD distributions as seen in the histogram plots of the energy scores in comparison to the baselines."
 
-- src: "assets/img/results_3.png"
+- src: "assets/img/results_3_1.png"
   alt: 
   caption: "In fact, our approach can effectively detect even covariate shifts and demonstrates a substantial improvement of approximately 7% to 35% in AUROC compared to the baselines."
 # - src: "assets/img/multiclass_cls_2.png"

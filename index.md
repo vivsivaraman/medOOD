@@ -25,14 +25,14 @@ To be posted
 %}
 
 
-<div style="font-size:18px">
+<!-- <div style="font-size:18px">
   <ol type="a">
   <p align="justify">
   <li><strong>Training:</strong> Train the medical image classifier along with the appropriate calibration protocol i.e latent-space inliers & pixel-space outliers.</li>
   <li><strong>OOD Detection:</strong> Use an energy based OOD detector to distinguish between ID and OOD (Modality Shifts / Novel Classes) and compute the performance metrics for e.g., AUROC</li>
   </p>
 </ol>
-</div>
+</div> -->
 
 
 <!-- {% include add_image.html 
